@@ -15,7 +15,7 @@ if [ ! -e text8 ]; then
   rm text8.zip
 fi
 
-CORPUS=text8
+CORPUS=custom_train
 VOCAB_FILE=vocab.txt
 COOCCURRENCE_FILE=cooccurrence.bin
 COOCCURRENCE_SHUF_FILE=cooccurrence.shuf.bin
